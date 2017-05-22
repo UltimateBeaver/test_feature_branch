@@ -1,15 +1,10 @@
-/* added in J */
+/* added in J, edited in K */
 void display(struct node *r)
 {
     r=head;
     if(r==NULL)
     {
         return;
-    }
-    while(r!=NULL)
-    {
-        printf("%d ",r->data);
-        r=r->next;
     }
     printf("\n");
 }
