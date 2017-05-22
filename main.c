@@ -8,7 +8,7 @@ int str_len(char *string)
 
 /* str_append is deleted in B */
 
-/* added in B */
+/* added in B*/
 char* str_append_chr(char* string, char append) {
     char* newstring = NULL;
     size_t needed = snprintf(NULL, 0, "%s%c", string, append);
@@ -29,4 +29,3 @@ int str_equals(char *equal1, char *eqaul2)
    if(*eqaul1 == '\0' && *eqaul2 == '\0' ){return 0;}
    else {return -1};
 }
-
